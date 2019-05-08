@@ -1,5 +1,5 @@
-const React = require('react');
-const { Text, View, Button, AppRegistry } = require('react-native');
+import React from 'react';
+import { Text, View, Button, AppRegistry } from 'react-native';
 
 const gerarNumeroRandomico = () => {
     const numeroAleatorio = Math.floor(Math.random() * 10);
